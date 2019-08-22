@@ -1,0 +1,34 @@
+﻿@using Microsoft.JSInterop
+@inject IJSRuntime js
+@if (Pattern != "")
+{
+    @Result.ToString(Pattern)
+}
+else
+{
+    @Result
+}
+
+
+@code {
+    [Parameter] public DateTime Date { get; set; }
+    [Parameter] public string Pattern { get; set; } = "";
+    private bool HasRendered { get; set; }
+    private DateTime Result { get; set; }
+
+    protected async override Task OnAfterRenderAsync()
+    {
+        if(!HasRendered)
+        {
+            var localTimezone = await TimeZoneJSInterop.GetTimeZoneAsync(js);
+            localTimezone = localTimezone.Replace(":3", ".5");
+            localTimezone = localTimezone.Replace(":", ".");
+            Result = Date.AddHours(Convert.ToDouble(localTimezone));
+            StateHasChanged();
+            HasRendered = true;
+        }
+        
+    }
+
+
+}
