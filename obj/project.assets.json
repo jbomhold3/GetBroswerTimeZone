@@ -436,7 +436,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "hRhm6c2DzooBBV5sDlRlqoqEmaWqb61xru0gToMzKwNaI2U+mB+kn8scfci/gaqM4lZNOUZ/3cgIgE/8IYLTlw==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -881,11 +881,11 @@
   "project": {
     "version": "1.0.0-preview8-01",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jbomh\\source\\repos\\TownControl\\GetBroswerTimeZone\\GetBroswerTimeZone.csproj",
+      "projectUniqueName": "C:\\Users\\jbomh\\source\\repos\\towncontrol\\GetBroswerTimeZone\\GetBroswerTimeZone.csproj",
       "projectName": "GetBroswerTimeZone",
-      "projectPath": "C:\\Users\\jbomh\\source\\repos\\TownControl\\GetBroswerTimeZone\\GetBroswerTimeZone.csproj",
+      "projectPath": "C:\\Users\\jbomh\\source\\repos\\towncontrol\\GetBroswerTimeZone\\GetBroswerTimeZone.csproj",
       "packagesPath": "C:\\Users\\jbomh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jbomh\\source\\repos\\TownControl\\GetBroswerTimeZone\\obj\\",
+      "outputPath": "C:\\Users\\jbomh\\source\\repos\\towncontrol\\GetBroswerTimeZone\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -898,8 +898,9 @@
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://dotnet.myget.org/F/roslyn/api/v3/index.json": {},
+        "https://nuget.devexpress.com/early-access/api": {}
       },
       "frameworks": {
         "netstandard2.0": {
@@ -931,16 +932,10 @@
           }
         },
         "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
+          "net461"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100-preview8-013656\\RuntimeIdentifierGraph.json"
+        "warn": true
       }
     }
   }
