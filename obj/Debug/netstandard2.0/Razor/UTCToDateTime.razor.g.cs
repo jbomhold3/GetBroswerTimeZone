@@ -14,6 +14,7 @@ namespace GetBroswerTimeZone
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.RenderTree.RenderTreeBuilder builder)
         {
+#nullable restore
 #line 1 "C:\Users\jbomh\source\repos\TownControl\GetBroswerTimeZone\UTCToDateTime.razor"
  if (Pattern != "")
 {
@@ -21,13 +22,17 @@ namespace GetBroswerTimeZone
 
 #line default
 #line hidden
+#nullable disable
             builder.AddContent(0, 
+#nullable restore
 #line 3 "C:\Users\jbomh\source\repos\TownControl\GetBroswerTimeZone\UTCToDateTime.razor"
      Result.ToString(Pattern)
 
 #line default
 #line hidden
+#nullable disable
             );
+#nullable restore
 #line 3 "C:\Users\jbomh\source\repos\TownControl\GetBroswerTimeZone\UTCToDateTime.razor"
                              
 }
@@ -37,21 +42,27 @@ else
 
 #line default
 #line hidden
+#nullable disable
             builder.AddContent(1, 
+#nullable restore
 #line 7 "C:\Users\jbomh\source\repos\TownControl\GetBroswerTimeZone\UTCToDateTime.razor"
      Result
 
 #line default
 #line hidden
+#nullable disable
             );
+#nullable restore
 #line 7 "C:\Users\jbomh\source\repos\TownControl\GetBroswerTimeZone\UTCToDateTime.razor"
            
 }
 
 #line default
 #line hidden
+#nullable disable
         }
         #pragma warning restore 1998
+#nullable restore
 #line 11 "C:\Users\jbomh\source\repos\TownControl\GetBroswerTimeZone\UTCToDateTime.razor"
        
     [Parameter] public DateTime Date { get; set; }
@@ -69,6 +80,7 @@ else
 
 #line default
 #line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

@@ -10,7 +10,7 @@
       "NETSTANDARD",
       "NETSTANDARD2_0"
     ],
-    "languageVersion": "7.3",
+    "languageVersion": "8.0",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -22,7 +22,7 @@
   },
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "GetBroswerTimeZone/1.0.0": {
+      "GetBroswerTimeZone/1.0.0-preview8-01": {
         "dependencies": {
           "Microsoft.AspNetCore.Components": "3.0.0-preview8.19405.7",
           "Microsoft.AspNetCore.Components.Web": "3.0.0-preview8.19405.7",
@@ -867,7 +867,7 @@
       }
     },
     ".NETStandard,Version=v2.0/": {
-      "GetBroswerTimeZone/1.0.0": {
+      "GetBroswerTimeZone/1.0.0-preview8-01": {
         "dependencies": {
           "Microsoft.AspNetCore.Components": "3.0.0-preview8.19405.7",
           "Microsoft.AspNetCore.Components.Web": "3.0.0-preview8.19405.7",
@@ -1205,7 +1205,7 @@
     }
   },
   "libraries": {
-    "GetBroswerTimeZone/1.0.0": {
+    "GetBroswerTimeZone/1.0.0-preview8-01": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1297,7 +1297,7 @@
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hRhm6c2DzooBBV5sDlRlqoqEmaWqb61xru0gToMzKwNaI2U+mB+kn8scfci/gaqM4lZNOUZ/3cgIgE/8IYLTlw==",
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
     },
